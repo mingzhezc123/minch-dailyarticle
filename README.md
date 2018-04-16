@@ -18,4 +18,4 @@
 
 ## 展示
 
-> ![show]()
+> ![show](https://github.com/mingzhezc123/minch-dailyarticle/blob/master/show/show.gif)
