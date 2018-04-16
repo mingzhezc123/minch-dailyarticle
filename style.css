@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*头部*/
+header{
+  width: 100%;
+  height: 135px;
+  background-color: #464646;
+}
+header section{
+  width: 900px;
+  margin: 0 auto;
+}
+.header-left{
+  float: left;
+  line-height: 135px;
+}
+.header-left img{
+  width: 87px;
+  height: 107px;
+  margin: 10px 20px 10px 0;
+  float: left;
+}
+
+.header-left p{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  /*line-height: 80px;*/
+  float: left;
+}
+
+.header-right{
+  width: 250px;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+.search-article{
+  float: left;
+  width: 200px;
+  height: 30px;
+  background-color: #464646;
+  outline: none;
+  margin: 53px 0;
+  border: none;
+  border-bottom: 3px solid #fff;
+  color: #eee;
+  position: absolute;
+  right: -200px;
+  z-index: 100;
+}
+.header-right img{
+  float: right;
+  width: 30px;
+  height: 30px;
+  margin: 53px 0;
+}
+
+/*随机一篇*/
+img.random{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+img.random:hover{
+  animation: searchRotate 1s ease 0s infinite;
+}
+@-webkit-keyframes searchRotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(720deg);
+  }
+}
+@keyframes searchRotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(720deg);
+  }
+}
+
+/*中间文章*/
+article{
+  width: 900px;
+  margin: 30px auto;
+}
+.article-content{
+  width: 100%;
+  position: relative;
+}
+.title-content{
+  width: 100%;
+}
+.title{
+  font-size: 28px;
+  color: #474747;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+.author{
+  font-size: 18px;
+  color: #484848;
+  margin: 10px 0;
+  text-align: right;
+}
+.line{
+  width: 100%;
+  height: 2px;
+  background-color: #494949;
+}
+.digest{
+  width: 96%;
+  margin: 50px 0;
+  padding: 10px;
+  background-color: #b8b8b8;
+  border-left: 5px solid #505050;
+}
+.article-main{
+  margin: 50px 0;
+}
+.article-main p{
+  text-indent: 32px;
+}
+
+/*底部*/
+.footer{
+  width: 100%;
+  margin: 20px 0;
+}
+.footer .thanks{
+  width: 900px;
+  margin: 0 auto;
+  padding: 5px;
+}
+.footer .thanks p{
+  text-align: center;
+  color: #464646;
+  font-size: 12px;
+}
